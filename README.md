@@ -107,12 +107,14 @@ Then, in main.js is where the .txt file is read and analyzed with some validatio
 ## Testing
 
 Unfortunately, I did not have enough time to build some tests. However, I did have time to test some cases manually, the files used can be found inside resources folder.
+```
 test_1: base case
 test_2: lost robot case
 test_3: mix test_1 and test_2 (output example provided)
 test_4: 2 lost robots case
 test_5: validation - invalid grid coordenates
 test_6: validation - exceed of instructions (more than 100 instructions)
+```
 
 ## Improvements
 If I had more time to work on the problem I would have added:
