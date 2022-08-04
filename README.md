@@ -64,14 +64,14 @@ LLFFFLFLFL
 2 3 S
 ```
 
-## Assumptions and contraints
-If there are no two lines in the input per robot, the analysis will be done until the last pair of lines that meet the criteria.
+## Assumptions and constraints
+- If there are no two lines in the input per robot, the analysis will be done until the last pair of lines that meet the criteria.
 
-If the input received for the rectangular world(_grid_) is not valid, the program will finish and do not log anything.
+- If the input received for the rectangular world(_grid_) is not valid, the program will finish and do not log anything.
 
-In case an instruction is not valid, it will be skipped and the program will continue processing.
+- In case an instruction is not valid, it will be skipped and the program will continue processing.
 
-The file processing was working well in Apple operating system, but then, I changed to Windows and It started to fail due to line break encoding.
+- The file processing was working well in Apple operating system, but then, I changed to Windows and It started to fail due to line break encoding.
 So, I had to create a regex function to remove unwanted characters such as "\n" or "\r".
 
 ## Explanation of the solution
